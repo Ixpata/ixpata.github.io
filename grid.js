@@ -1,3 +1,4 @@
+$(window).load(function(){
 $("#button").click(function(){   $(".container").empty();                      
       squares = prompt("How many squares would you like on each side?");
        for (i = 1; i <=(squares * squares); i++) {
@@ -25,5 +26,5 @@ function getRandomColor() {
         return color;
     }
         
-
+});
 
